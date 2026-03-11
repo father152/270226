@@ -7,9 +7,11 @@
 
 }
 h1 {
-    font-family: "Raleway", sans-serif;
-    font-size: 50px;
-    color: rgb(39, 48, 34);
+    font-family: "Shadows Into Light Two", cursive;
+  font-weight: 800;
+  
+    font-size: 80px;
+    color: rgb(26, 48, 14);
     text-align: center;
     background-color: seagreen;
     margin: 0;
@@ -71,11 +73,12 @@ h1 {
     background-color: rgb(43, 117, 3);
 }
 h2{
-    font-size: 30px;
+    font-family: "Shadows Into Light Two", cursive;
+    font-size: 40px;
     color: rgb(39, 48, 34);
     text-align: center;
     margin: 0;
-    padding: 20px 0px;
+    padding: 10px 0 0 0 0;
 }
 p{
     font-family: "Raleway", sans-serif;
@@ -83,7 +86,7 @@ p{
     color: rgb(39, 48, 34);
     text-align: justify;
     padding: 5px;
-    line-height: 0.9;
+    line-height: 1.1;
     margin: 0;
 }
 .centreside img{
