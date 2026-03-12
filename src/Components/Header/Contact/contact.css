@@ -1,3 +1,12 @@
+.contact {
+    align-items: center;
+    justify-content: center;
+}
+.contact-stuff {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .back-home img {
     width: 4%;
     height: 4%;

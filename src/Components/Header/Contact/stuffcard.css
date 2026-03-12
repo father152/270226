@@ -1,0 +1,38 @@
+.stuffcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 310px;
+    height: auto;
+    background-color: #b0beb0;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+.stuffcard img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 2px solid #74bd62;
+}
+.stuffcard .name {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.stuffcard .position {
+    font-size: 25px;
+    color: #555;
+    margin-bottom: 5px;
+}
+.stuffcard .phone {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 5px;
+}
+.stuffcard .office {
+    font-size: 20px;
+    color: #555;
+}
