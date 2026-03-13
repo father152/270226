@@ -5,7 +5,7 @@ import img4 from "../../Image/pexels-murat-esibatir-156560-4355346.jpg";
 import img5 from "../../Image/pexels-murat-esibatir-156560-4355346.jpg";
 import img6 from "../../Image/pexels-murat-esibatir-156560-4355346.jpg";
 import img7 from "../../Image/pexels-murat-esibatir-156560-4355346.jpg";
-
+import img8 from "../../Image/pexels-murat-esibatir-156560-4355346.jpg";
 
 
 const Stuff = [
@@ -65,7 +65,16 @@ const Stuff = [
         position: "Sales Associate",
         phone: "+1 (111) 222-3333",
         office: "251"
+    },
+    {
+        id: 8,
+        photo: img8,
+        name: "Jessica Lee",
+        position: "Sales Associate",
+        phone: "+1 (111) 222-3333",
+        office: "251"
     }
+
 ];
 
 export default Stuff;
