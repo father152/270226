@@ -1,0 +1,43 @@
+.projects {
+    
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #ffffff;
+}
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.blonde {
+    object-fit: cover;
+    border-radius: 10px;
+}
+.blonde img {
+    width: 110%;
+    height: 110%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.title-projects {
+   
+}
+.title-projects ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    cursor: pointer;
+}
+.title-projects ul li {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+    transition: color 0.3s ease;
+    padding-left: 30px;
+}
+.title-projects ul li:hover {
+    color: #051f74;
+    text-decoration: underline;
+}
