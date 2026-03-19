@@ -7,8 +7,8 @@ import About from './Components/Header/About/About';
 import Projects from "./Components/Header/Projects/Projects"
 import Portfolio from "./Components/Header/Portfolio/Portfolio"
 import Contact from "./Components/Header/Contact/Contact"
-
-
+import Project1 from "./Components/Header/Projects/Project1"
+import Project2 from "./Components/Header/Projects/Project2"
 
 function App() {
   const router = createBrowserRouter([
@@ -35,6 +35,14 @@ function App() {
          {
           path: "/contact",
           element: <Contact />,
+        },
+         {
+          path: "/project1",
+          element: <Project1 />,
+        },
+        {
+          path: "/project2",
+          element: <Project2 />,
         },
       ],
     },

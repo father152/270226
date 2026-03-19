@@ -1,30 +1,29 @@
 import React from 'react'
 import back from "../../Image/home.png"
 import { Link } from 'react-router-dom'
-
 import "./projects.css"
 
 
 
 export default function Projects() {
+    
+  
   return (
     <div className="projects">
       <h1>Projects</h1>
       <div className="projects-container">
         <div className="title-projects">
           <ul>
-            <li>Project 1</li>
-            <li>Project 2</li>
-            <li>Project 3</li>
-            <li>Project 4</li>
-            <li>Project 5</li>
-            <li>Project 6</li>
+            <Link to="/project1"><li>Project 1</li></Link>
+            <Link to="/project2"><li>Project 2</li></Link> 
+         
           </ul>
         </div>
         <div className="object">
-
-
+         rtrt
         </div>
+
+
       </div>
 
 

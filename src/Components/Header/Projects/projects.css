@@ -1,28 +1,19 @@
 .projects {
-    
     align-items: center;
     justify-content: center;
-    
     background-color: #ffffff;
 }
 .projects-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
 }
-.blonde {
-    object-fit: cover;
-    border-radius: 10px;
-}
-.blonde img {
-    width: 110%;
-    height: 110%;
-    object-fit: cover;
-    border-radius: 10px;
-}
+
 .title-projects {
-   
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .title-projects ul {
     display: flex;
@@ -32,12 +23,19 @@
 }
 .title-projects ul li {
     margin: 10px 0;
-    font-size: 18px;
+    font-size: 25px;
     color: #333;
     transition: color 0.3s ease;
-    padding-left: 30px;
+    padding-left: 50px;
 }
 .title-projects ul li:hover {
     color: #051f74;
     text-decoration: underline;
+}
+.object{
+    display: flex;
+   width: 90%;
+   height: 100vh;
+   background-color: #46915f;
+   margin: 0 auto;
 }
