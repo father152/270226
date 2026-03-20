@@ -20,7 +20,7 @@ export default function Projects() {
           </ul>
         </div>
         <div className="object">
-         rtrt
+         <h2>P R O J E C T S</h2>
         </div>
 
 
