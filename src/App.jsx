@@ -9,6 +9,7 @@ import Portfolio from "./Components/Header/Portfolio/Portfolio"
 import Contact from "./Components/Header/Contact/Contact"
 import Project1 from "./Components/Header/Projects/Project1"
 import Project2 from "./Components/Header/Projects/Project2"
+import Project3 from './Components/Header/Projects/Project3';
 
 function App() {
   const router = createBrowserRouter([
@@ -43,6 +44,10 @@ function App() {
         {
           path: "/project2",
           element: <Project2 />,
+        },
+        {
+          path: "/project3",
+          element: <Project3 />,
         },
       ],
     },

@@ -15,7 +15,7 @@ export default function Projects() {
           <ul>
             <Link to="/project1"><li>Project 1</li></Link>
             <Link to="/project2"><li>Project 2</li></Link>
-
+            <Link to="/project3"><li>Project 3</li></Link>
           </ul>
         </div>
         <div className="object">
