@@ -8,7 +8,7 @@ export default function Project2() {
     <div className="project2">
       <h2>Project-2</h2>
       <div className="project2-container">
-<img src={photo1} alt=""></img>
+        <img src={photo1} alt=""></img>
 
       </div>
       <div className="back">
