@@ -1,0 +1,17 @@
+.form {
+    width: 90%;
+    margin: 0px auto;
+display: flex;
+flex-direction: column;
+}
+.form label {
+    font-size: 20px;
+    line-height: 1.3;
+    padding: 10px 0px;
+
+}
+.form input{
+    margin:  5px 0px;
+    height: 25px;
+    font-size: 20px;
+}
